@@ -1,0 +1,32 @@
+### GET request with environment variables
+## get patch
+GET {{host}}/getPatch
+Accept: application/json
+x-rpc-app_version:1.5.0
+x-rpc-device_id:xiaomi6
+
+###
+
+
+### 创建 Patch
+POST {{host}}/createPatch
+Content-Type: application/json
+
+{
+    "pid": 2,
+    "patch_version": "1.0.1",
+    "target_host_version": "1.5.0",
+    "channels": [
+        "test",
+        "beta"
+    ],
+    "device_id_list": [
+        "xiaomi6"
+    ],
+    "clear_patch": false,
+    "is_enable": true,
+    "focus": true,
+    "focus_in_safe_mode": true
+}
+
+###

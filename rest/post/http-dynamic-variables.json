@@ -1,0 +1,17 @@
+{
+  "__about__" : [
+    "This file provides stubs for dynamic variables used in HTTP Client",
+    "This file serves a documentation purpose and should not be modified manually",
+    "Values of this variables are generated at the runtime"
+  ],
+  "dynamicVariables": {
+    "uuid": {
+      "description": "This dynamic variable generates a new UUID-v4",
+      "sample-value": "e9e87c05-82eb-4522-bc47-f0fcfdde4cab"
+    },
+   "cookies": {
+     "description": "测试环境cookie",
+     "sample-value": "ltoken=vBQehg1xzSknn0Kwvqr7bWKfKjIL0lUrEw8gjiaE; ltuid=53049;"
+   }
+  }
+}

@@ -1,0 +1,11 @@
+
+###
+POST https://devapi-takumi.mihoyo.com/post/wapi/deletePost
+Content-Type: application/json
+Cookie: ltoken=vBQehg1xzSknn0Kwvqr7bWKfKjIL0lUrEw8gjiaE; ltuid=53049;
+
+{
+  "post_id": 61063
+}
+
+###
