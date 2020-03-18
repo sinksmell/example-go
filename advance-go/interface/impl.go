@@ -23,10 +23,10 @@ func p(cnts ...counter){
 
 
 func main(){
-	users:=[]*user{
-		{2},
-		{3},
-		{4},
-	}
-	p(users[0]...)
+	//users:=[]*user{
+	//	{2},
+	//	{3},
+	//	{4},
+	//}
+	//p(users[0]...)
 }
